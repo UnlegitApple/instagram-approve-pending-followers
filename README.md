@@ -1,6 +1,8 @@
 # Instagram approve pending followers
 Approve all pending followers ( for private accounts )
 
+(I forked it because I reduced the (hardcoded) delay to 2 seconds)
+
 Install this package globally:
 
     npm install https://github.com/UnlegitApple/instagram-approve-pending-followers -g
