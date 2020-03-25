@@ -2,7 +2,7 @@
 
 const lodash = require('lodash')
 const Promise = require('bluebird')
-var Client = require('instagram-private-api').V1
+var Client = require('qrpike/instagram-private-api').V1
 
 var program = require('commander')
 let session = null
