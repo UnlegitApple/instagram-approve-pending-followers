@@ -3,7 +3,7 @@ Approve all pending followers ( for private accounts )
 
 Install this package globally:
 
-    npm install https://github.com/qrpike/instagram-approve-pending-followers -g
+    npm install https://github.com/UnlegitApple/instagram-approve-pending-followers -g
 
 Once you have done that, you should be able to run the cli:
 
