@@ -7,7 +7,7 @@ var Client = require('instagram-private-api').V1
 var program = require('commander')
 let session = null
 
-const everyMinutes = 10
+const everyMinutes = 2
 let intervalFunc = null
 
 program
@@ -58,7 +58,7 @@ function setTimeoutContinue(){
 			console.log('Set timeouts error:', err)
 			setTimeoutContinue()
 		})
-	}, 1000 * 60 * everyMinutes )
+	}, 1000 * everyMinutes )
 }
 
 // Login and go
